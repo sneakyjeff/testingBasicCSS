@@ -1,0 +1,47 @@
+/*
+ * CSS uses the same commenting style as C-like languages
+ */
+
+ table {
+ 	border: 2px solid red;
+ 	margin: 0 auto;
+ }
+
+ img {
+ 	width: 25%;
+ 	height: auto;
+ 	display: block;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ }
+
+ td {
+ 	border: 2px solid black;
+ }
+
+ body {
+ 	background-color: lightblue;
+ }
+
+/*
+ * .class selector selects elements with the specific class attribute
+ */
+ .firstparagraph {
+ 	text-align: center;
+ }
+
+ /*
+  * #id selector selects usually one element with the specific ID attribute
+  */
+
+ #button1 {
+ 	border: 2px solid red;
+ }
+
+ #button2 {
+ 	border: 2px solid green;
+ }
+
+ #button3 {
+ 	border: 2px solid blue;
+ }
