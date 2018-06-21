@@ -33,7 +33,6 @@
  /*
   * #id selector selects usually one element with the specific ID attribute
   */
-
  #button1 {
  	border: 2px solid red;
  }
@@ -44,4 +43,8 @@
 
  #button3 {
  	border: 2px solid blue;
+ }
+
+ #navbar {
+ 	background-color: yellow;
  }
