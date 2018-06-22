@@ -28,6 +28,9 @@
  */
  .firstparagraph {
  	text-align: center;
+ 	background: orange;
+ 	padding: 20px;
+ 	border: 2px solid black;
  }
 
  /*
@@ -46,5 +49,9 @@
  }
 
  #navbar {
+ 	display: block;
  	background-color: yellow;
+ 	border: 2px solid black;
+ 	margin: 0;
+   	padding: 20;
  }
