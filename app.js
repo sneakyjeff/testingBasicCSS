@@ -1,3 +1,9 @@
 var awesome = require('./server');
+var http = require('http');
 
-console.log(awesome.printHello());
+// function todoFunctionHere(){
+	
+// }
+
+
+http.createServer(awesome.printHello()).listen(8000);

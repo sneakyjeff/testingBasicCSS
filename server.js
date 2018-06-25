@@ -3,7 +3,7 @@ function countArray(array){
 }
 
 function printHello(){
-	return 'hello biches';
+	return 'hello world';
 }
 
 var functionexpression = function(){
@@ -12,6 +12,9 @@ var functionexpression = function(){
 
 module.exports = {
 	countArray: countArray, 
-	printHello: printHello
+	printHello: printHello,
+	functionexpression: functionexpression
 };
+
+
 
