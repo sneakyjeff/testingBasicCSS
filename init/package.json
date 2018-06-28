@@ -1,0 +1,25 @@
+{
+  "name": "practice",
+  "version": "0.0.1",
+  "description": "testing",
+  "main": "app.js",
+  "scripts": {
+    "test": "n/a"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n/a.git"
+  },
+  "keywords": [
+    "n/a"
+  ],
+  "author": "jeffrey trang",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/n/a/issues"
+  },
+  "homepage": "https://github.com/n/a#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
