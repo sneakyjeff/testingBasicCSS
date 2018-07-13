@@ -1,7 +1,23 @@
 <html>
 	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 		<link rel="stylesheet" type="text/css" href="CSS/styles.css">
 		<title>PracticeCSS</title>
+
+
+		<meta charset="utf-8">
+		<meta name="description" content="this is jeffrey trang's profile. Involves CSS, HTML, JavaScript">
+		<meta name="viewpoint" content="width=device-width, initial-scale=1">
+
+		<script>
+$(document).ready(function(){
+    $("#button4").click(function(){
+        $("#picture").fadeOut();
+    });
+});
+</script>
+		
 	</head>
 	<body>
 		<div id="navbar">
@@ -22,9 +38,7 @@
 		</table>
 		</div>
 
-		<img src="IMGS/jeff.png">
-
-		testing
+		<img id="picture" src="IMGS/jeff.png">
 
 		
 		<p class="firstparagraph"> This is sample to practice my CSS and HTML without use of any front-end frameworks </p>
@@ -41,5 +55,7 @@
 		<button type="button" id="button3">
 			<a href="https://www.yahoo.com/"> Button 3 </a>
 		</button>
+
+		<button id="button4">newbutton</button>
 	</body>
 </html>
